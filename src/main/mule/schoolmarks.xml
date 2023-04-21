@@ -21,5 +21,9 @@ payload]]></ee:set-payload>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="b1769b08-6b80-489d-ab5e-bdd68889e4bb" message="#[payload]"/>
 		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="a3605a80-108d-4d11-a74d-23bbc4891aa9" />
+		<logger level="INFO" doc:name="Logger" doc:id="db5fd365-9320-4f7e-8450-94c854e7e472" message="#[payload]"/>
+		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="99167c9e-aa3d-49c1-82d8-32f700f79684" />
+		<logger level="INFO" doc:name="Logger" doc:id="a48a428c-8e9a-4be7-8441-3f106b423064" message="#[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="cd6d7ffd-438b-47b2-9192-40d8635e0427" message="#[payload]"/>
 	</flow>
 </mule>
